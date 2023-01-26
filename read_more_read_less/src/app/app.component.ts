@@ -7,17 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   showMore: boolean = true;
-  otherShowMore :boolean = true
-  text: string = ` Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
-type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`;
+  otherShowMore: boolean = true;
+  text: string = ` Set fourth second replenish be appear. Was that dry firmament unto one they're doesn't kind tree is beast fifth, air subdue air him deep fish female to. Was itself fruitful, light. Moveth moving. Kind lights signs.
+  Also give subdue. Whales first their sixth years shall set upon divided living. To above firmament, third that gathered fly made midst bring us above wherein the have form day.  
+  Set fifth and seasons, subdue, saw, darkness moveth moveth rule make she'd to them Without one she'd behold they're. Seed gathering brought meat open can't be life moving under whose god own meat firmament.`;
   readMore() {
     this.showMore = !this.showMore;
   }
-  otherReadMore()
-  {
-    this.otherShowMore =!this.otherShowMore
+  otherReadMore() {
+    this.otherShowMore = !this.otherShowMore;
   }
 }
